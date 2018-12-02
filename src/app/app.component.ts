@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app works!';
+  actualLink : string = 'Recipe';
+  onNavigator(feature: string) {
+  	this.actualLink = feature;
+  }
 }
